@@ -1,8 +1,9 @@
 <head>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="normalize.css" rel="stylesheet">
-    <link href="build.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <!-- Scripts -->
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.js"></script>
 </head>
 
 <nav>
@@ -13,15 +14,16 @@
                 <p>Mark Pesantes</p>
             </div>
 
-            <ul>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+            <ul class="navigation-list">
+                <li><a data-scroll href="#summary">Skills</a></li>
+                <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                <li><a href="mailto: mpesantes89@gmail.com">Contact</a></li>
             </ul>
         </div>
     </div>
 </nav>
 
+<body>
 <section class="hero">
     <div class="hero-split hero-focusImage"></div>
 
@@ -33,8 +35,10 @@
             <p>Web architect who genuinely cares about learning the latest techniques
                to implement appropriate solutions for a better web.</p>
 
-            <a class="icon-profile" href="">Resume</a>
-            <a class="icon-wrench" href="">Portfolio</a>
+            <div class="hero-action_links_wrapper">
+                <a class="hero-action_link icon-profile" href="">Resume</a>
+                <a class="hero-action_link icon-display" href="">Portfolio</a>
+            </div>
        </div>
 
 
@@ -42,7 +46,7 @@
 
 </section>
 
-<section class="summaryFrame">
+<section id="summary" class="summaryFrame">
     <div class="container">
 
         <div class="summaryFrame-flex_container">
@@ -82,38 +86,78 @@
     </div>
 </section>
 
-<section class="workFrames">
+<section id="portfolio" class="workFrames">
     <div class="container">
     <h2>Portfolio</h2>
 
         <ul class="workFrames-list">
-            <li style="background-image: url(assets/images/coverfx_landing.png)">
-                <h5>CoverFX</h5>
+            <li style="background-image: url(assets/images/coverfx_landing.jpg)">
+                <a href="#">
+                    <div class="workFrames-item_shade">
+                            <h3>CoverFX - Shopify</h3>
+                            <p>Navigation, Improvements, Modifications</p>
+                    </div>
+                </a>
             </li>
-            <li style="background-image: url(assets/images/ironside_landing.png)">
-                <h5>Ironside Computers</h5>
+            <li style="background-image: url(assets/images/ironside_landing.jpg)">
+                <a href="#">
+                    <div class="workFrames-item_shade">
+                            <h3>Ironside - Woocommerce</h3>
+                            <p>New Site, Collab, Navigation</p>
+                    </div>
+                </a>
             </li>
-            <li style="background-image: url(assets/images/navatar_landing.png)">
-                <h5>Navatar</h5>
+            <li style="background-image: url(assets/images/navatar_landing.jpg)">
+                <a href="#">
+                    <div class="workFrames-item_shade">
+                            <h3>Navatar - Wordpress</h3>
+                            <p>Custom Post Types, Collab, Blog</p>
+                    </div>
+                </a>
             </li>
-            <li style="background-image: url(assets/images/buechel_landing.png)">
-                <h5>Buechel Stone</h5>
+            <li style="background-image: url(assets/images/buechel_landing.jpg)">
+                <a href="#">
+                    <div class="workFrames-item_shade">
+                            <h3>Buechel - Woocommerce</h3>
+                            <p>Products, Collab, New site</p>
+                    </div>
+                </a>
             </li>
-            <li style="background-image: url(assets/images/rh_landing.png)">
-                <h5>Rug &amp; Home</h5>
+            <li style="background-image: url(assets/images/rh_landing.jpg)">
+                <a href="#">
+                    <div class="workFrames-item_shade">
+                            <h3>Rug &amp; Home - Shopify</h3>
+                            <p>Home Page, Redevelopment, Improvements</p>
+                    </div>
+                </a>
             </li>
-            <li style="background-image: url(assets/images/alliant_landing.png)">
-                <h5>Alliant</h5>
+            <li style="background-image: url(assets/images/alliant_landing.jpg)">
+                <a href="#">
+                    <div class="workFrames-item_shade">
+                            <h3>Alliant - Wordpress</h3>
+                            <p>New Site, Filtering, Collab</p>
+                    </div>
+                </a>
             </li>
         </ul>
     </div>
 </section>
 
 <footer>
-    <p>&copy; 2017 Mark Pesantes</p>
-    <div>
-        <span>LinkedIn</span>
-        <span>Github</span>
-        <span>Twitter</span>
+    <div class="container">
+        <div class="footerWrapper">
+            <p>&copy; 2017 Mark Pesantes</p>
+                <div>
+                    <span>LinkedIn</span>
+                    <span>Github</span>
+                    <span>Twitter</span>
+                </div>
+        </div>
     </div>
+
+    <script type="text/javascript">
+             var scroll = new SmoothScroll('[data-scroll]');
+    </script>
 </footer>
+
+</body>
