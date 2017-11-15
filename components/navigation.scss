@@ -6,6 +6,7 @@ nav {
     background-color: white;
     color: #191919;
     border-bottom: 1px solid #c9c9c9;
+    z-index: 10;
 }
 
 nav img {
@@ -17,7 +18,7 @@ nav img {
     padding-top: 15px;
     padding-bottom: 15px;
 
-    @media screen and (min-width: 768px) {
+    @media  (min-width: 768px) {
         display: flex !important;
         flex-wrap: wrap;
         justify-content: flex-end;
@@ -53,7 +54,7 @@ nav img {
     align-items: center;
     justify-content: center;
 
-    @media screen and(min-width: 768px) {
+    @media (min-width: 768px) {
         justify-content: flex-end;
     }
 }

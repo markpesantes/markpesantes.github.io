@@ -1,7 +1,7 @@
 .hero {
     background-color: #733f45;
 
-    @media screen and(min-width: 768px) {
+    @media (min-width: 768px) {
         height: 600px;
         display: flex;
     }
@@ -18,7 +18,7 @@
     flex-direction: column;
     justify-content: center;
 
-    @media screen and(min-width: 768px) {
+    @media (min-width: 768px) {
         height: 100%;
     }
 }
@@ -29,14 +29,14 @@
     background-position: center;
     height: 350px;
 
-    @media screen and(min-width: 768px) {
+    @media (min-width: 768px) {
         height: auto;
     }
 }
 
 .hero-split {
-    @media screen and(min-width: 768px) {
-        flex: 0 0 50%;
+    @media (min-width: 768px) {
+        flex: 1 1 50%;
     }
 }
 

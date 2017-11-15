@@ -1,9 +1,9 @@
     @font-face {
       font-family: 'icomoon';
       src:
-        url('fonts/icomoon.ttf?jrnxd') format('truetype'),
-        url('fonts/icomoon.woff?jrnxd') format('woff'),
-        url('fonts/icomoon.svg?jrnxd#icomoon') format('svg');
+        url('../fonts/icomoon.ttf?jrnxd') format('truetype'),
+        url('../fonts/icomoon.woff?jrnxd') format('woff'),
+        url('../fonts/icomoon.svg?jrnxd#icomoon') format('svg');
       font-weight: normal;
       font-style: normal;
     }
@@ -71,11 +71,18 @@
     .footerWrapper {
         text-align: center;
 
-        @media screen and(min-width: 768px) {
+        @media (min-width: 768px) {
             display: flex;
             justify-content: space-between;
             align-items: center;
             text-align: left;
         }
 
+    }
+
+    .footer-icon {
+        font-size: 25px;
+        color: #191919;
+        margin-left: 15px;
+        text-decoration: none;
     }
