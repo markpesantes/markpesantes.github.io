@@ -1,163 +1,170 @@
-<head>
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
-    <link href="assets/css/main.css" rel="stylesheet">
-    <!-- Scripts -->
-    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.js"></script>
-</head>
+<!doctype html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Mark Pesantes - Front-End Developer</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<nav>
-    <div class="container">
-        <div class="navigation-wrapper">
-            <div class="navigation-logo_wrapper">
-                <img src="mark.png">
-                <p>Mark Pesantes</p>
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+        <link href="assets/css/main.css" rel="stylesheet">
+        <!-- Scripts -->
+        <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.js"></script>
+    </head>
+
+    <nav>
+        <div class="container">
+            <div class="navigation-wrapper">
+                <div class="navigation-logo_wrapper">
+                    <img src="mark.png">
+                    <p>Mark Pesantes</p>
+                </div>
+
+                <ul class="navigation-list">
+                    <li><a data-scroll href="#summary">Skills</a></li>
+                    <li><a data-scroll href="#portfolio">Portfolio</a></li>
+                    <li><a href="mailto: mpesantes89@gmail.com">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <body>
+    <section class="hero">
+        <div class="hero-split hero-focusImage"></div>
+
+        <div class="hero-split hero-splitBackground">
+            <h1 class="hero-title">Hello, I'm Mark</h1>
+            <h3 class="hero-subtitle">Front-End Developer</h3>
+
+            <div class="hero-copy">
+                <p>Web architect who genuinely cares about learning the latest techniques
+                   to implement appropriate solutions for a better web.</p>
+
+                <div class="hero-action_links_wrapper">
+                    <a href="assets/pesantes_mark_resume_2017.pdf" target="_blank" class="hero-action_link icon-profile">Resume</a>
+                    <a class="hero-action_link icon-display" data-scroll href="#portfolio">Portfolio</a>
+                </div>
+           </div>
+
+
+        </div>
+
+    </section>
+
+    <section id="summary" class="summaryFrame">
+        <div class="container">
+
+            <div class="summaryFrame-flex_container">
+                <div class="summaryFrame--small">
+                    <h2>Skills</h2>
+                    <ul class="summaryFrame-list summaryFrame-list--wrap">
+                        <li>CSS, Sass, Less</li>
+                        <li>Javascript</li>
+                        <li>jQuery</li>
+                        <li>Grunt/Gulp</li>
+                        <li>Shopify, Woocommerce</li>
+                        <li>Wordpress</li>
+                        <li>PHP</li>
+                        <li>Git</li>
+                        <li>Progressive enhancement</li>
+                        <li>Command Line</li>
+                    </ul>
+                </div>
+                <div class="summaryFrame--small">
+                    <h2>Current Experiments</h2>
+                    <ul class="summaryFrame-list">
+                        <li>Python Basics</li>
+                        <li>Gulpfile Improvements</li>
+                        <li>Exploring new editors</li>
+                        <li>Jekyll</li>
+                    </ul>
+                </div>
             </div>
 
-            <ul class="navigation-list">
-                <li><a data-scroll href="#summary">Skills</a></li>
-                <li><a data-scroll href="#portfolio">Portfolio</a></li>
-                <li><a href="mailto: mpesantes89@gmail.com">Contact</a></li>
+            <div class="summaryFrame-inner">
+                <h2 class="summaryFrame-title">My Beliefs</h2>
+                <p>Web Development to me is all about thinking through all the possible scenarios of a problem, and anticipating where things can go wrong. I care deeply about implementing effective user experiences, finding new ways to improve my workflow, and keeping up on the latest trends.</p>
+                <p>For the past three years I've been a front-end developer working daily to bring designs and experiences to life. I'd like to contribute to a team who is open to feedback, passionate about learning from each other, and solving problems together.</p>
+                <p>"Design is not just what it looks like and feels like. Design is how it works." - Steve Jobs</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="workFrames">
+        <div class="container">
+        <h2>Portfolio</h2>
+
+            <ul class="workFrames-list">
+                <li style="background-image: url(assets/images/coverfx_landing.jpg)">
+                    <a href="https://www.coverfx.com/" target="_blank" rel="nofollow">
+                        <div class="workFrames-item_shade">
+                                <h3>CoverFX - Shopify</h3>
+                                <p>Navigation, Improvements, Modifications</p>
+                        </div>
+                    </a>
+                </li>
+                <li style="background-image: url(assets/images/ironside_landing.jpg)">
+                    <a href="https://ironsidecomputers.com/" target="_blank" rel="nofollow">
+                        <div class="workFrames-item_shade">
+                                <h3>Ironside - Woocommerce</h3>
+                                <p>New Site, Collab, Navigation</p>
+                        </div>
+                    </a>
+                </li>
+                <li style="background-image: url(assets/images/navatar_landing.jpg)">
+                    <a href="https://navatargroup.com/" target="_blank" rel="nofollow">
+                        <div class="workFrames-item_shade">
+                                <h3>Navatar - Wordpress</h3>
+                                <p>Custom Post Types, Collab, Blog</p>
+                        </div>
+                    </a>
+                </li>
+                <li style="background-image: url(assets/images/buechel_landing.jpg)">
+                    <a href="https://buechelstone.com/" target="_blank" rel="nofollow">
+                        <div class="workFrames-item_shade">
+                                <h3>Buechel - Woocommerce</h3>
+                                <p>Products, Collab, New site</p>
+                        </div>
+                    </a>
+                </li>
+                <li style="background-image: url(assets/images/rh_landing.jpg)">
+                    <a href="https://www.rugandhome.com/" target="_blank" rel="nofollow">
+                        <div class="workFrames-item_shade">
+                                <h3>Rug &amp; Home - Shopify</h3>
+                                <p>Home Page, Redevelopment, Improvements</p>
+                        </div>
+                    </a>
+                </li>
+                <li style="background-image: url(assets/images/alliant_landing.jpg)">
+                    <a href="http://alliantinsight.com/" target="_blank" rel="nofollow">
+                        <div class="workFrames-item_shade">
+                                <h3>Alliant - Wordpress</h3>
+                                <p>New Site, Filtering, Collab</p>
+                        </div>
+                    </a>
+                </li>
             </ul>
         </div>
-    </div>
-</nav>
+    </section>
 
-<body>
-<section class="hero">
-    <div class="hero-split hero-focusImage"></div>
-
-    <div class="hero-split hero-splitBackground">
-        <h1 class="hero-title">Hello, I'm Mark</h1>
-        <h3 class="hero-subtitle">Front-End Developer</h3>
-
-        <div class="hero-copy">
-            <p>Web architect who genuinely cares about learning the latest techniques
-               to implement appropriate solutions for a better web.</p>
-
-            <div class="hero-action_links_wrapper">
-                <a class="hero-action_link icon-profile" href="">Resume</a>
-                <a class="hero-action_link icon-display" href="">Portfolio</a>
-            </div>
-       </div>
-
-
-    </div>
-
-</section>
-
-<section id="summary" class="summaryFrame">
-    <div class="container">
-
-        <div class="summaryFrame-flex_container">
-            <div class="summaryFrame--small">
-                <h2>Skills</h2>
-                <ul class="summaryFrame-list summaryFrame-list--wrap">
-                    <li>CSS, Sass, Less</li>
-                    <li>Javascript</li>
-                    <li>jQuery</li>
-                    <li>Grunt/Gulp</li>
-                    <li>Shopify, Woocommerce</li>
-                    <li>Wordpress</li>
-                    <li>PHP</li>
-                    <li>Git</li>
-                    <li>Progressive enhancement</li>
-                    <li>Command Line</li>
-                </ul>
-            </div>
-            <div class="summaryFrame--small">
-                <h2>Current Experiments</h2>
-                <ul class="summaryFrame-list">
-                    <li>Python Basics</li>
-                    <li>Gulpfile Improvements</li>
-                    <li>Exploring new editors</li>
-                    <li>Jekyll</li>
-                </ul>
+    <footer>
+        <div class="container">
+            <div class="footerWrapper">
+                <p>&copy; 2017 Mark Pesantes</p>
+                    <div>
+                        <a href="https://www.linkedin.com/in/markpesantes/" target="_blank" class="footer-icon icon-linkedin"></a>
+                        <a href="https://github.com/markpesantes" target="_blank" class="footer-icon icon-github"></a>
+                        <a href="https://twitter.com/MarkPesantes" target="_blank" class="footer-icon icon-twitter"></a>
+                    </div>
             </div>
         </div>
 
-        <div class="summaryFrame-inner">
-            <h2 class="summaryFrame-title">My Beliefs</h2>
-            <p>Web Development to me is all about thinking through all the possible scenarios of a problem, and anticipating where things can go wrong. I care deeply about implementing effective user experiences, finding new ways to improve my workflow, and keeping up on the latest trends.</p>
-            <p>For the past three years I've been a front-end developer working daily to bring designs and experiences to life. I'd like to contribute to a team who is open to feedback, passionate about learning from each other, and solving problems together.</p>
-            <p>"Design is not just what it looks like and feels like. Design is how it works."</p>
-            <p style="margin: 0;">- Steve Jobs</p>
-        </div>
-    </div>
-</section>
+        <script type="text/javascript">
+                 var scroll = new SmoothScroll('[data-scroll]');
+        </script>
+    </footer>
 
-<section id="portfolio" class="workFrames">
-    <div class="container">
-    <h2>Portfolio</h2>
-
-        <ul class="workFrames-list">
-            <li style="background-image: url(assets/images/coverfx_landing.jpg)">
-                <a href="#">
-                    <div class="workFrames-item_shade">
-                            <h3>CoverFX - Shopify</h3>
-                            <p>Navigation, Improvements, Modifications</p>
-                    </div>
-                </a>
-            </li>
-            <li style="background-image: url(assets/images/ironside_landing.jpg)">
-                <a href="#">
-                    <div class="workFrames-item_shade">
-                            <h3>Ironside - Woocommerce</h3>
-                            <p>New Site, Collab, Navigation</p>
-                    </div>
-                </a>
-            </li>
-            <li style="background-image: url(assets/images/navatar_landing.jpg)">
-                <a href="#">
-                    <div class="workFrames-item_shade">
-                            <h3>Navatar - Wordpress</h3>
-                            <p>Custom Post Types, Collab, Blog</p>
-                    </div>
-                </a>
-            </li>
-            <li style="background-image: url(assets/images/buechel_landing.jpg)">
-                <a href="#">
-                    <div class="workFrames-item_shade">
-                            <h3>Buechel - Woocommerce</h3>
-                            <p>Products, Collab, New site</p>
-                    </div>
-                </a>
-            </li>
-            <li style="background-image: url(assets/images/rh_landing.jpg)">
-                <a href="#">
-                    <div class="workFrames-item_shade">
-                            <h3>Rug &amp; Home - Shopify</h3>
-                            <p>Home Page, Redevelopment, Improvements</p>
-                    </div>
-                </a>
-            </li>
-            <li style="background-image: url(assets/images/alliant_landing.jpg)">
-                <a href="#">
-                    <div class="workFrames-item_shade">
-                            <h3>Alliant - Wordpress</h3>
-                            <p>New Site, Filtering, Collab</p>
-                    </div>
-                </a>
-            </li>
-        </ul>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <div class="footerWrapper">
-            <p>&copy; 2017 Mark Pesantes</p>
-                <div>
-                    <a href="" target="_blank" class="footer-icon icon-linkedin"></a>
-                    <a href="" target="_blank" class="footer-icon icon-github"></a>
-                    <a href="" target="_blank" class="footer-icon icon-twitter"></a>
-                </div>
-        </div>
-    </div>
-
-    <script type="text/javascript">
-             var scroll = new SmoothScroll('[data-scroll]');
-    </script>
-</footer>
-
-</body>
+    </body>
+</html>
