@@ -462,7 +462,6 @@ p {
   text-decoration: none; }
 
 nav {
-  position: sticky;
   top: 0;
   right: 0;
   left: 0;
@@ -470,6 +469,9 @@ nav {
   color: #191919;
   border-bottom: 1px solid #c9c9c9;
   z-index: 10; }
+
+body {
+  margin-top: 67px; }
 
 nav img {
   height: 50px;
@@ -513,6 +515,12 @@ nav img {
 
 .navigation-logo_wrapper p {
   margin-left: 10px; }
+
+@supports (position: sticky) {
+  nav {
+    position: sticky; }
+  body {
+    margin-top: 0; } }
 
 .hero {
   background-color: #733f45; }
