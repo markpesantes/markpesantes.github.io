@@ -442,6 +442,11 @@ p {
   font-family: 'Nunito', sans-serif;
   line-height: 1.5em; }
 
+a {
+  transition: 0.3s color; }
+  a:hover {
+    color: #bdbdbd; }
+
 .container {
   max-width: 1170px;
   margin: 0 auto; }
@@ -496,6 +501,8 @@ nav img {
   .navigation-list a {
     text-decoration: none;
     color: currentColor; }
+    .navigation-list a:hover {
+      color: #bdbdbd; }
 
 .navigation-wrapper ul {
   margin: 0;

@@ -63,6 +63,14 @@
         line-height: 1.5em;
     }
 
+    a {
+        transition: 0.3s color;
+
+        &:hover {
+            color: #bdbdbd;
+        }
+    }
+
     .container {
         max-width: 1170px;
         margin: 0 auto;
