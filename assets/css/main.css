@@ -703,3 +703,58 @@ nav img {
   align-items: center;
   opacity: 0;
   transition: 0.3s opacity; }
+
+.contactForm {
+  background-color: #EFEFEF;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-size: 20px 20px;
+  background-image: linear-gradient(to right, #c9c9c9 1px, transparent 1px), linear-gradient(to bottom, #c9c9c9 1px, transparent 1px); }
+
+.contactForm-wrapper {
+  background-color: white;
+  padding: 60px; }
+  .contactForm-wrapper form h2 {
+    margin-top: 0; }
+  .contactForm-wrapper form ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; }
+  .contactForm-wrapper form > ul {
+    margin-top: 35px; }
+  .contactForm-wrapper form li {
+    margin-bottom: 15px; }
+    .contactForm-wrapper form li:last-child {
+      margin-bottom: 0; }
+  .contactForm-wrapper form .hide {
+    display: none;
+    opacity: 0; }
+  .contactForm-wrapper form input, .contactForm-wrapper form select, .contactForm-wrapper form textarea {
+    border: 1px solid #d9d9d9;
+    width: 100%; }
+  .contactForm-wrapper form input, .contactForm-wrapper form select {
+    padding: 10px;
+    height: 40px; }
+  .contactForm-wrapper form textarea {
+    resize: none;
+    padding: 10px; }
+  .contactForm-wrapper form label {
+    font-weight: bold;
+    font-size: 14px; }
+  .contactForm-wrapper .buttons {
+    margin-bottom: 0; }
+    .contactForm-wrapper .buttons input {
+      width: auto;
+      padding: 10px 35px;
+      background-color: #733f45;
+      color: white;
+      border: none; }
+
+@media (min-width: 768px) {
+  .contactForm-split_wrapper {
+    display: flex;
+    flex-wrap: wrap; }
+    .contactForm-split_wrapper li {
+      flex: 1 1 auto; }
+      .contactForm-split_wrapper li:first-child {
+        margin-right: 15px; } }
